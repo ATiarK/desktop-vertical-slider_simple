@@ -6,11 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Vertical Slider</title>
 </head>
 
 <body>
-
+    <div class="slider-container">
+        <div class="left-slide">
+            <div style="background-color: #B1C1C8;">
+                <h1>Shenhe</h1>
+                <p>Lonesome Transcendence</p>
+            </div>
+            <div style="background-color: #3B8C84;">
+                <h1>Xiao</h1>
+                <p>Vigilant Yaksha</p>
+            </div>
+            <div style="background-color: #5679BF;">
+                <h1>Ganyu</h1>
+                <p>Adrift in the Harbor</p>
+            </div>
+            <div style="background-color: #BF8641;">
+                <h1>Zhongli</h1>
+                <p>Gentry of Hermitage</p>
+            </div>
+        </div>
+        <div class="right-slide">
+            <div style="background-image: url('./images/zhongli_banner.jpg');"></div>
+            <div style="background-image: url('./images/ganyu_banner.jpg');"></div>
+            <div style="background-image: url('./images/xiao_banner.jpg');"></div>
+            <div style="background-image: url('./images/shenhe_banner.jpg');"></div>
+        </div>
+        <div class="action-button">
+            <button class="down-button">
+                <i class="fas fa-arrow-down"></i>
+            </button>
+            <button class="up-button">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
